@@ -1,35 +1,54 @@
 
-# SUPERSTORE SALES ANALYSIS IN THE USA
+# 🛍️ Superstore Sales Analysis – U.S. Retail Profitability
 ![image](https://user-images.githubusercontent.com/97131888/179262766-09549c14-4b46-46e1-876e-8626d53be572.png)
 
 
-Exploratory Data Analysis on a sample retail sales dataset to identify opportunities to increase profit.
-
 ## Author
 
-- [@Renikeji19](https://www.github.com/Renikeji19)
+**Adepeju Esther Shittu**  
+Data Analyst | Power BI & Tableau | Business Insight Strategist  
+[GitHub](https://github.com/Renikeji19) | [Portfolio](https://myfol.io/adepejushittu) 
 
-## Introduction
-As an intern in the Data Science and Business Analytics track, at The Sparks foundation, I was required to perform Exploratory data analysis (EDA) on this dataset to uncover the business problems and determine areas for sales and profit improvement 
 
-## Problem Statement and Questions 
-In order to uncover the business problems and weak areas to work on to make more profit I outlined some questions to be answered by the data analysis.
+## 📌 Overview
 
-•	What States made the lowest sales and profit?
+This project explores a U.S. retail store’s sales and profitability data to uncover weak performance areas across **states**, **customer segments**, and **product categories**.  
+It was completed as part of my internship with The Sparks Foundation under the Data Science & Business Analytics track.
 
-•	What product Sub-Categories sold the least and made the least profit?
+## 🎯 Objectives
 
-•	How does the average discount offered on the products affect profit?
+- Identify underperforming regions and segments
+- Evaluate the impact of discounting on profit margins
+- Recommend data-driven strategies for improving retail profitability
 
-•	What are the performances of Sales and profit across the customer segments?
+## 📊 Data Summary
 
-## Data Preparation and Processing
-The datset downloaded via a link provided on the program platform, is a csv file consisting of a single table with 13 columns and 9,994 rows. It was checked for missing values, outliers, and other discrepancies and cleaned before importing to Tableau for analysis.
+- **Source**: Sample retail dataset (CSV)
+- **Rows**: ~9,994  
+- **Columns**: 13  
+- **Fields**: Order ID, Customer Segment, State, Category, Sub-category, Sales, Discount, Profit, etc.
+
+## 🛠 Tools Used
+
+- **Excel** — Data cleaning and transformation  
+- **Tableau** — Visualization and exploratory analysis
 
 ![image](https://user-images.githubusercontent.com/97131888/179301372-af9eaa9d-6d60-466a-b3a2-9b835b4d4840.png)
 
-## Data Analysis
-In Tableau, analysis was performed to answer the questions asked.
+## 🔍 Key Questions Answered
+
+- Which states are generating the highest and lowest profit?
+- What product sub-categories are leading to losses?
+- How does discounting correlate with profit across categories?
+- What are the performance trends across different customer segments?
+
+## 📈 Key Insights
+
+- 🔻 **Texas** recorded the highest total loss: $25,729  
+- 🪑 **Furniture** category underperformed, with **Tables** losing $17,725  
+- 📉 High discount rates often correlated with low profitability (esp. Bookcases, Supplies)  
+- 🧾 **Home Office** customer segment had the lowest sales ($429K) and profit ($60K)
+
 
 ![image](https://user-images.githubusercontent.com/97131888/179317726-4ac28c75-02f6-45c8-b0cf-cbb72389c9ae.png)
 
@@ -46,7 +65,8 @@ In Tableau, analysis was performed to answer the questions asked.
 
 6. The Home Office customer segment recorded the lowest sales ($429,653) and made the least profit ($60,299) of the 3 segments. 
 
-## Conclusion and Recommendations
+
+## 💡 Conclusion and Recommendations
 The weak areas identified by the analysis are;
 (a) Low sales and profit in the Home Office customer Segment
 
@@ -56,6 +76,9 @@ The weak areas identified by the analysis are;
 
 (d) All the losses made in Tables, bookcases and Supplies sub-categories were recorded in 10 States.
 
-The following strategies are recommended to increase the profit margin in the weak areas;
-An extensive Market research would help the Store in making decisions on cutting low-margin products, price increases(by determining how much more customers would be willing to spend on the products),   and marketing strategies to boost sales.
-Also, the cost of goods sold can be reduced through effective vendor management to improve profitability.
+The following strategies are recommended to increase the profit margin in the weak areas:
+
+- Phase out or optimize pricing for high-cost, low-margin items  
+- Perform market research to reassess value perception for Furniture SKUs  
+- Reduce excessive discounting in underperforming segments  
+- Launch targeted campaigns to boost sales in the Home Office segment
